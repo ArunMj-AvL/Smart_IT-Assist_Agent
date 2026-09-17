@@ -1,0 +1,102 @@
+{
+    "users": [
+        {
+            "user_id": "USR001",
+            "name": "Arun",
+            "email": "arun@example.com",
+            "department": "Accounts",
+            "role": "Staff",
+            "dob": "1995-05-12",
+            "fav_color": "Blue",
+            "place": "Chennai",
+            "otp": "2233",
+            "temporary_password": "TempPass#9594"
+        },
+        {
+            "user_id": "USR002",
+            "name": "Priya",
+            "email": "priya@example.com",
+            "department": "HR",
+            "role": "Staff",
+            "dob": "1997-08-20",
+            "fav_color": "Pink",
+            "place": "delhi",
+            "otp": ""
+        },
+        {
+            "user_id": "USR003",
+            "name": "Rahul",
+            "email": "rahul@example.com",
+            "department": "IT",
+            "role": "Staff",
+            "dob": "1994-02-15",
+            "fav_color": "Black",
+            "place": "kolkata",
+            "otp": "2409",
+            "temporary_password": "TempPass#2469"
+        },
+        {
+            "user_id": "USR004",
+            "name": "Sneha",
+            "email": "sneha@example.com",
+            "department": "Sales",
+            "role": "Manager",
+            "dob": "1992-11-30",
+            "fav_color": "Green",
+            "place": "paris",
+            "otp": "4604"
+        },
+        {
+            "user_id": "USR005",
+            "name": "Vishnu",
+            "email": "vishnu@example.com",
+            "department": "Support",
+            "role": "Staff",
+            "dob": "1998-07-10",
+            "fav_color": "White",
+            "place": "kerala",
+            "otp": "123456"
+        }
+    ],
+    "tickets": [
+        {
+            "ticket_id": "TKT365",
+            "user_id": "USR001",
+            "problem_type": "LOGIN ISSUE",
+            "description": "There is a password issue",
+            "status": "Resolved",
+            "actions_taken": [
+                "Performed basic security verification using DOB, favorite color, and birthplace.",
+                "Performed OTP fallback verification after security questions failed."
+            ],
+            "solution": "Password reset successful via OTP verification.",
+            "escalated": false
+        },
+        {
+            "ticket_id": "TKT422",
+            "user_id": "USR002",
+            "problem_type": "NETWORK",
+            "description": "Network issue",
+            "status": "Escalated",
+            "actions_taken": [
+                "Performed basic network troubleshooting steps: toggled Wi-Fi, disconnected VPN, and reconnected to Wi-Fi.",
+                "Performed advanced network troubleshooting steps: restarted network adapter, forgot and reconnected to Wi-Fi, and restarted the computer."
+            ],
+            "solution": null,
+            "escalated": true
+        },
+        {
+            "ticket_id": "TKT772",
+            "user_id": "USR003",
+            "problem_type": "PERFORMANCE",
+            "description": "My laptop is hanging",
+            "status": "Resolved",
+            "actions_taken": [
+                "Performed basic performance troubleshooting steps: closed unused applications, closed unnecessary browser tabs, and restarted the laptop.",
+                "Performed advanced performance troubleshooting steps: opened Task Manager, checked applications using high CPU or RAM, and closed unnecessary applications."
+            ],
+            "solution": "Advanced performance troubleshooting was successful.",
+            "escalated": false
+        }
+    ]
+}
